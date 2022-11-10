@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+html, body {
+  background: linear-gradient(120deg, #7ecdd7, #162694);
+  overflow: hidden;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #8182c1;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #8182c1;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #3e4fd7;
+  color: #fff;
+  text-transform: uppercase;
+  &:focus {
+    outline: none;
+  }
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
